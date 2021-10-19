@@ -7,3 +7,4 @@ for j=1:n
                            % just inverse of original diag elemnts of L
     L(j,:) = Vect - Vect(1,j)*L(j,1:j-1)*L(1:j-1,:);
 end
+end
